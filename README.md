@@ -1,5 +1,4 @@
-Infrastructure as Code
-======================
+# Infrastructure as Code
 
 Infrastructure as code, also referred to as IaC, is a type of IT setup wherein developers or operations teams automatically manage and provision the technology stack for an application through software, rather than using a manual process to configure discrete hardware devices and operating systems.
 
@@ -15,16 +14,14 @@ The key features of the repository are:
 
 For more information, see the [introduction section](http://www.terraform.io/intro) of the Terraform website.
 
-Getting Started & Documentation
--------------------------------
+## Getting Started & Documentation
 
 If you are new to Infrastructure as Code (IaC), please check out the following resources:
 
 - [Terraform website](http://www.terraform.io)
 - [Terraform: Up and Running](https://www.amazon.co.uk/Terraform-Up-Running-Yevgeniy-Brikman/dp/1491977086)
 
-Development Environment
------------------------
+## Development Environment
 
 If you wish to follow along the environment(s) used are:
 
