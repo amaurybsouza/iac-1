@@ -29,3 +29,30 @@ If you wish to follow along the environment(s) used are:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Terraform](https://www.terraform.io/downloads.html)
 - [AWS Free Tier](https://aws.amazon.com/free/)
+
+## Terraform Example (Docker provider)
+
+If you prefer, I'd like to leave a example with Terraform using Docker provider:
+
+```
+# Configure the Docker provider
+provider "docker" {
+  }
+# Create a Apache Container
+resource "docker_container" "nginx" {
+    image = "nginx"
+    name = "enginecks"
+    ports {
+        internal = "80"
+        external = "80"
+    }
+}
+# # Create a image
+resource "docker_image" "nginx" {
+    name = "nginx:latest"
+  
+}
+```
+
+
+
